@@ -38,7 +38,7 @@
   margin-bottom: 20px;
 }
 
-.wd-modules button {
+button {
   background-color: gray;
   color: white;
   padding: 8px 12px;
@@ -47,7 +47,7 @@
   margin: 5px;
 }
 
-.wd-modules button.green {
+button.green {
   background-color: green;
   color: white;
   padding: 8px 12px;
@@ -55,7 +55,14 @@
   border-radius: 4px;
   margin: 5px;
 }
-
-red-text {
+.red-text {
   color: red !important;
+}
+
+.one-fourth-width {
+  width: 26%;
+}
+
+.one-eighth-width {
+  width: 12.5%;
 }
