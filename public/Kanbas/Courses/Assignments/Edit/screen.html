@@ -1,11 +1,11 @@
-<html>
+<!-- <html>
       <head>
             <link rel="stylesheet" href="/Kanbas/styles.css" />
             <link rel="stylesheet" href="/Kanbas/Navigation/index.css" />
-            <!-- <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css" />-->
-            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
-            />
+            <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css" />
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
             <link rel="stylesheet" href="/Kanbas/Courses/Navigation/index.css" />
+            <link rel="stylesheet" href="/Kanbas/Courses/Assignments/Edit/index.css" />
       </head>
       <body>
             <table width="100%">
@@ -141,6 +141,158 @@
                                   <br>
                                   <button type="button">Cancel</button>
                                   <button type="button">Save</button>
+                       </form></td>
+                    </tr>
+                  </tbody>
+                </table>
+                
+                
+      </body>
+</html> -->
+
+<html>
+      <head>
+            <link rel="stylesheet" href="/Kanbas/styles.css" />
+            <link rel="stylesheet" href="/Kanbas/Navigation/index.css" />
+            <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css" />
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+            <link rel="stylesheet" href="/libs/bootstrap/bootstrap.min.css" />
+            <link rel="stylesheet" href="/Kanbas/Courses/Navigation/index.css" />
+            <link rel="stylesheet" href="/Kanbas/Courses/Assignments/Edit/index.css" />
+      </head>
+      <body>
+            <table width="100%">
+                  <tbody>
+                    <tr>
+                      <td valign="top"><ul class="wd-kanbas-navigation">
+                        <li><a href="http://northeastern.edu">N</a></li>
+                        <li class="wd-kanbas-navigation-special"><a href="/Kanbas/Account/Profile/screen.html"><i class="fas fa-user"></i> Account</a></li>
+                        <li>
+                           <a href="/Kanbas/Dashboard/screen.html"><i class="fas fa-tachometer-alt"></i> Dashboard</a>
+                         </li>
+                        <li class="wd-active"><a href="/Kanbas/Courses/Home/screen.html"><i class="fas fa-book"></i>Courses</a> </li>
+                        <li><a href="#"><i class="fa fa-calendar"></i> Calendar</a></li>
+                        <li><a href="#"><i class="fas fa-inbox"></i> Inbox</a></li>
+                        <li><a href="#"><i class="far fa-clock"></i> History</a></li>
+                        <li><a href="#"><i class="fas fa-tv"></i> Studio</a></li>
+                        <li><a href="#"><i class="fas fa-copyright"></i> Commons</a></li>
+                        <li><a href="#"><i class="fas fa-question-circle"></i> <br>Help</a></li>
+                      </ul>
+                         </td>
+                      <td valign="top"><ul class="wd-navigation">
+                        <li>
+                          <a href="/Kanbas/Courses/Home/screen.html">Home</a></li>
+                        <li >
+                          <a href="/Kanbas/Courses/Modules/screen.html">Modules</a>
+                        </li>
+                        <li><a href="http://piazza.com">Piazza</a></li>
+                        <li><a href="#">Zoom</a></li>
+                        <li class="wd-active">
+                          <a href="/Kanbas/Courses/Assignments/screen.html">Assignments</a>
+                        </li>
+                        <li><a href="#">Quizzes</a></li>
+                        <li><a href="/Kanbas/Courses/Grades/screen.html">Grades</a></li>
+                        <li><a href="#">People</a></li>
+                        <li><a href="#">Panopoto Video</a></li>
+                        <li><a href="#">Discussions</a></li>
+                        <li><a href="#">Announcements</a></li>
+                        <li><a href="#">Pages</a></li>
+                        <li><a href="#">Files</a></li>
+                        <li><a href="#">Rubrics</a></li>
+                        <li><a href="#">Outcomes</a></li>
+                        <li><a href="#">Collaborations</a></li>
+                        <li><a href="#">Syllabus</a></li>
+                        <li><a href="/Kanbas/Courses/Settings/screen.html">Settings</a></li>
+                      </ul>
+                        
+                        
+                        </td>
+                      <td valign="top">
+                        <form>
+                              Assignment Name<br>
+                              <div class="form-group"><label for="assg-name"></label>
+                                    <input id="assg-name" placeholder="Assignment Name" class="form-control"/><br></div>
+                         <br>
+                         <div class="form-group">
+                              <textarea cols="25" rows="2" class="form-control"
+                              placeholder="This is the assignment description">This is the assignment description
+                           </textarea>
+                         </div>
+                      <br>
+                      <br>
+                      <div class="row form-group">
+                        <div class="col">
+                              <label for="assg-points">Points</label>
+                        </div>
+                        <div class="col">
+                              <input type = "number" max="100" class="form-control" min = "0" id="assg-points" placeholder="100"/><br>
+                        </div>
+                      </div>
+                      <div class="row form-group">
+                        <div class="col">
+                              <label for="assg-group">Assignment Group</label>
+                        </div>
+                        <div class="col">
+                              <select class="form-control" id="assg-group"><option value="VAL1">ASSIGNMENTS</option>
+                                    <option value="VAL2">QUIZZES</option>
+                                    <option value="VAL3">PROJECTS</option>
+                                    <option value="VAL4">EXAMS</option>
+                                 </select>
+                        </div>
+                      </div>
+                      <br>
+                      <div class="row form-group">
+                        <div class="col">
+                              <label for="assg-disp-grade">Display Grade as</label>
+                        </div>
+                        <div class="col">
+                              <select class="form-control" id="assg-disp-grade"><option value="VAL1">Percentage</option>
+                                    <option value="VAL2">Letter Grade</option>
+                                 </select>
+                        </div>
+                      </div>
+                      <br>
+                      <div class="row form-group">
+                        <div class="col">
+                        </div>
+                        <div class="col">
+                              <input type="checkbox" value="VAL3"
+                            name="check-entry" id="chkbox-media"/>
+                      <label for="chkbox-media">Do not count this assignment towards the final grade</label>
+                        </div>
+                      </div>
+                      <br>
+                      <div class="row form-group">
+                        <div class="col">Assign
+                        </div>
+                        <div class="col border">
+                             <div class="container"> <label for="assg-to">Assign to</label>
+                              <br>
+                              <input id="assg-to" placeholder="Everyone"/>
+                              <br>
+                              <br>
+                              <label for="assg-due"> Due </label><br>
+                              <input type="date"
+                                    id="assg-due"/>
+                                    <br>
+                              <br>
+                              <label for="assg-from"> Available from </label><br>
+                              <input type="date"
+                                    id="assg-from"/>
+                                    <br>
+                                    <br>
+                                    <label for="assg-until">Until </label><br>
+                                    <input type="date"
+                                          id="assg-until"/>
+                                          <br>
+                                          <br>
+                                          <button type="button">Cancel</button>
+                                          <button type="button">Save</button></div>
+                        </div>
+                      </div>
+                      
+                      <br>
+                     
                        </form></td>
                     </tr>
                   </tbody>
