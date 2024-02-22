@@ -1,11 +1,11 @@
 [
-    { "_id": "CS1234", "title": "Propulsion Assignment", "course": "CS1234" },
-    { "_id": "CS1234", "title": "Combustion Analysis", "course": "CS1234" },
-    { "_id": "CS1234", "title": "Nozzle Design Project", "course": "CS1234" },
-    { "_id": "CS1234", "title": "Aerodynamics Quiz", "course": "CS1234" },
-    { "_id": "CS1234", "title": "Flow Analysis", "course": "CS1234" },
-    { "_id": "CS1234", "title": "Heating Analysis", "course": "CS1234" },
-    { "_id": "CS1234", "title": "Structural Design Task", "course": "CS1234" },
-    { "_id": "CS1234", "title": "Orbital Calculations", "course": "CS1234" },
-    { "_id": "CS1234", "title": "Systems Engineering Exam", "course": "CS1234" }
+    { "_id": "CS1234", "title": "A1 - ENV + HTML", "course": "CS1234", "due":"15th Feb" },
+    { "_id": "CS1234", "title": "A2 - HTML + CSS", "course": "CS1234", "due":"15th March" },
+    { "_id": "CS1234", "title": "A3 - REDUX + REACT", "course": "CS1234" , "due":"15th April"},
+    { "_id": "CS5800", "title": "A1 - Divide and conquer", "course": "CS5800" , "due":"15th Feb"},
+    { "_id": "CS5800", "title": "A2 - Greedy strategy", "course": "CS5800" , "due":"15th March"},
+    { "_id": "CS5800", "title": "A3 - Dynamic programming", "course": "CS5800", "due":"15th April" },
+    { "_id": "CS4300", "title": "A1 - Singular Value Decomposition", "course": "CS4300", "due":"15th Feb" },
+    { "_id": "CS4300", "title": "A2 - Matrices", "course": "CS4300" , "due":"15th March"},
+    { "_id": "CS4300", "title": "A3 - Eigen values and eigen vectors", "course": "CS4300", "due":"15th April" }
   ]
