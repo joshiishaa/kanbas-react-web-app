@@ -1,11 +1,11 @@
 [
-    { "_id": "CS1234", "title": "Propulsion Assignment", "course": "RS101" },
-    { "_id": "CS1234", "title": "Combustion Analysis", "course": "RS101" },
-    { "_id": "CS1234", "title": "Nozzle Design Project", "course": "RS101" },
-    { "_id": "CS1234", "title": "Aerodynamics Quiz", "course": "RS102" },
-    { "_id": "CS1234", "title": "Flow Analysis", "course": "RS102" },
-    { "_id": "CS1234", "title": "Heating Analysis", "course": "RS102" },
-    { "_id": "CS1234", "title": "Structural Design Task", "course": "RS103" },
-    { "_id": "CS1234", "title": "Orbital Calculations", "course": "RS103" },
-    { "_id": "CS1234", "title": "Systems Engineering Exam", "course": "RS103" }
+    { "_id": "CS1234", "title": "Propulsion Assignment", "course": "CS1234" },
+    { "_id": "CS1234", "title": "Combustion Analysis", "course": "CS1234" },
+    { "_id": "CS1234", "title": "Nozzle Design Project", "course": "CS1234" },
+    { "_id": "CS1234", "title": "Aerodynamics Quiz", "course": "CS1234" },
+    { "_id": "CS1234", "title": "Flow Analysis", "course": "CS1234" },
+    { "_id": "CS1234", "title": "Heating Analysis", "course": "CS1234" },
+    { "_id": "CS1234", "title": "Structural Design Task", "course": "CS1234" },
+    { "_id": "CS1234", "title": "Orbital Calculations", "course": "CS1234" },
+    { "_id": "CS1234", "title": "Systems Engineering Exam", "course": "CS1234" }
   ]
