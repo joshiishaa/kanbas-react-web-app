@@ -3,7 +3,7 @@ import "./style.css";
 import "./index.css";
 
 
-import { modules } from "../../Database";
+import  {modules}  from "../../Database";
 import { FaEllipsisV, FaCheckCircle, FaPlusCircle, FaPlus } from "react-icons/fa";
 import { useParams } from "react-router";
 function ModuleList() {
