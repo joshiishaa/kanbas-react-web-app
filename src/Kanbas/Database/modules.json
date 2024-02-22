@@ -1,0 +1,116 @@
+[
+    {
+      "_id": "CS1234",
+      "name": "React JS",
+      "description": "Full Stack software developer",
+      "course": "CS1234",
+      "lessons": [
+        {
+          "_id": "L101",
+          "name": "Arrow functions",
+          "description": "A brief introduction of arrow functions",
+          "module": "M101"
+        },
+        {
+          "_id": "L102",
+          "name": "Array methods",
+          "description": "Basic principles of array methods",
+          "module": "M101"
+        },
+        {
+          "_id": "L103",
+          "name": "Components",
+          "description": "Overview of components",
+          "module": "M101"
+        }
+      ]
+    },
+    {
+      "_id": "CS5800",
+      "name": "Algorithms",
+      "description": "Algorithm complexities",
+      "course": "CS5800",
+      "lessons": [
+        {
+          "_id": "L201",
+          "name": "Divide and Conquer",
+          "description": "Overview of the divide and conquer strategy",
+          "module": "M102"
+        },
+        {
+          "_id": "L202",
+          "name": "Greedy Strategy",
+          "description": "Overview of the greedy strategy",
+          "module": "M102"
+        },
+        {
+          "_id": "L203",
+          "name": "Dynamic programming",
+          "description": "Overview of dynamic programming",
+          "module": "M102"
+        }
+      ]
+    },
+    {
+      "_id": "CS4300",
+      "name": "Linear Algebra",
+      "description": "Introduction to linear algebra",
+      "course": "CS4300",
+      "lessons": [
+        {
+          "_id": "L301",
+          "name": "Matrices",
+          "description": "Overview of matrices",
+          "module": "M103"
+        },
+        {
+          "_id": "L302",
+          "name": "Eigenvalues and eigenvectors",
+          "description": "Understanding eigenvalues and eigenvectors",
+          "module": "M103"
+        },
+        {
+          "_id": "L303",
+          "name": "Singular value decomposition",
+          "description": "Understanding singular value decomposition",
+          "module": "M103"
+        }
+      ]
+    },
+    {
+      "_id": "M201",
+      "name": "Fundamentals of Aerodynamics",
+      "description": "Basic aerodynamic concepts and fluid dynamics principles.",
+      "course": "RS102"
+    },
+    {
+      "_id": "M202",
+      "name": "Subsonic and Supersonic Flow",
+      "description": "Understanding subsonic and supersonic aerodynamic behaviors.",
+      "course": "RS102"
+    },
+    {
+      "_id": "M203",
+      "name": "Aerodynamic Heating",
+      "description": "Study of aerodynamic heating and thermal protection systems.",
+      "course": "RS102"
+    },
+    {
+      "_id": "M301",
+      "name": "Spacecraft Structural Design",
+      "description": "Fundamentals of designing spacecraft structures and materials selection.",
+      "course": "RS103"
+    },
+    {
+      "_id": "M302",
+      "name": "Orbital Mechanics",
+      "description": "Understanding orbital dynamics and mission planning.",
+      "course": "RS103"
+    },
+    {
+      "_id": "M303",
+      "name": "Spacecraft Systems Engineering",
+      "description": "Overview of spacecraft systems and subsystems engineering.",
+      "course": "RS103"
+    }
+  ]

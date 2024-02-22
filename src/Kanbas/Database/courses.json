@@ -3,15 +3,8 @@
   { "_id": "CS5800", "name": "CS5800 Algorithms", "number": "CS5800", "startDate": "2023-01-10",
     "endDate": "2023-05-15", "image": "algo.avif" ,"description":"Algorithm complexities" },
     { "_id": "CS4300", "name": "CS4300 Linear Algebra", "number": "CS4300", "startDate": "2023-01-10",
-    "endDate": "2023-05-15", "image": "la.png" ,"description":"Introduction to linear algebra" },
-    { "_id": "CS6180", "name": "CS6180 Machine Learning", "number": "CS6180", "startDate": "2023-01-10",
-    "endDate": "2023-05-15", "image": "ml.jpeg" ,"description":"Introduction to ML" }
-    ,{ "_id": "CS6120", "name": "CS6120 NLP", "number": "CS6120", "startDate": "2023-01-10",
-    "endDate": "2023-05-15", "image": "nlp.jpg" ,"description":"Introduction to NLP" },
-    { "_id": "CS4500", "name": "CS4500 Theory of Computation", "number": "CS4500", "startDate": "2023-01-10",
-    "endDate": "2023-05-15", "image": "toc_f.jpg" ,"description":"Deterministic automata" },
-    { "_id": "CS5610", "name": "CS5610 Web Development", "number": "CS5610", "startDate": "2023-01-10",
-    "endDate": "2023-05-15", "image": "wd_f.jpg" ,"description":"Full Stack web developer" }
+    "endDate": "2023-05-15", "image": "la.png" ,"description":"Introduction to linear algebra" }
+   
  ]
 
     
