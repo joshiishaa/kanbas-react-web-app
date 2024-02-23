@@ -1,11 +1,11 @@
 [
-    { "_id": "CS1234", "title": "A1 - ENV + HTML", "course": "CS1234", "due":"15th Feb" },
-    { "_id": "CS1234", "title": "A2 - HTML + CSS", "course": "CS1234", "due":"15th March" },
-    { "_id": "CS1234", "title": "A3 - REDUX + REACT", "course": "CS1234" , "due":"15th April"},
-    { "_id": "CS5800", "title": "A1 - Divide and conquer", "course": "CS5800" , "due":"15th Feb"},
-    { "_id": "CS5800", "title": "A2 - Greedy strategy", "course": "CS5800" , "due":"15th March"},
-    { "_id": "CS5800", "title": "A3 - Dynamic programming", "course": "CS5800", "due":"15th April" },
-    { "_id": "CS4300", "title": "A1 - Singular Value Decomposition", "course": "CS4300", "due":"15th Feb" },
-    { "_id": "CS4300", "title": "A2 - Matrices", "course": "CS4300" , "due":"15th March"},
-    { "_id": "CS4300", "title": "A3 - Eigen values and eigen vectors", "course": "CS4300", "due":"15th April" }
+    { "_id": "A11", "title": "A1 - ENV + HTML", "course": "CS1234", "due":"15th Feb" },
+    { "_id": "A12", "title": "A2 - HTML + CSS", "course": "CS1234", "due":"15th March" },
+    { "_id": "A13", "title": "A3 - REDUX + REACT", "course": "CS1234" , "due":"15th April"},
+    { "_id": "A21", "title": "A1 - Divide and conquer", "course": "CS5800" , "due":"15th Feb"},
+    { "_id": "A22", "title": "A2 - Greedy strategy", "course": "CS5800" , "due":"15th March"},
+    { "_id": "A23", "title": "A3 - Dynamic programming", "course": "CS5800", "due":"15th April" },
+    { "_id": "A31", "title": "A1 - Singular Value Decomposition", "course": "CS4300", "due":"15th Feb" },
+    { "_id": "A32", "title": "A2 - Matrices", "course": "CS4300" , "due":"15th March"},
+    { "_id": "A33", "title": "A3 - Eigen values and eigen vectors", "course": "CS4300", "due":"15th April" }
   ]
