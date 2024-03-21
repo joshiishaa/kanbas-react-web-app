@@ -4,6 +4,7 @@ import { assignments } from "../../../Database";
 import { FaCheckCircle, FaEllipsisV, FaPlusCircle, FaRocket } from "react-icons/fa";
 import "./index.css";
 import "./style.css";
+import { addAssignment } from "../assignmentsReducer";
 function AssignmentEditor() {
   const { assignmentId } = useParams();
   const assignment = assignments.find(
@@ -11,23 +12,45 @@ function AssignmentEditor() {
   const { courseId } = useParams();
   const navigate = useNavigate();
   const handleSave = () => {
-    console.log("Actually saving assignment TBD in later assignments");
+    //console.log("Actually saving assignment TBD in later assignments");
+    const savedAssignment = {...assignment,
+      title: document.getElementById("assg-name"),
+      description: document.getElementById("assg-desc"),
+      points: document.getElementById("assg-points"),
+      due :document.getElementById("assg-due"),
+      from :document.getElementById("assg-from"),
+      until:document.getElementById("assg-until")
+      
+    };
+    addAssignment(savedAssignment);
     navigate(`/Kanbas/Courses/${courseId}/Assignments`);
   };
   return (
     <div>
-      <h2>Assignment Name</h2>
-      <input value={assignment?.title}
-             className="form-control mb-2" />
-             <br/>
-<div className="row form-group">
+            <div className="row form-group">
+                        <div className="col">
+                              <label>Assignment Name</label>
+                        </div>
+                        <div className="col">
+                              <input type = "text"  className="form-control" id="assg-name" placeholder="Enter name"/><br/>
+                        </div>
+                </div>
+             <div className="row form-group">
+                        <div className="col">
+                              <label>Description</label>
+                        </div>
+                        <div className="col">
+                              <input type = "text"  className="form-control" id="assg-desc" placeholder="Enter description"/><br/>
+                        </div>
+                </div>
+            <div className="row form-group">
                         <div className="col">
                               <label>Points</label>
                         </div>
                         <div className="col">
                               <input type = "number" max="100" className="form-control" min = "0" id="assg-points" placeholder="100"/><br/>
                         </div>
-                      </div>
+                </div>
                       <div className="row form-group">
                         <div className="col">
                               <label>Assignment Group</label>
